@@ -42,6 +42,22 @@ li {
     margin-bottom: 12px;
 }
 
+/* External links change color on hover and show keyboard focus. */
+a {
+    color: #a34600;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: #174b73;
+}
+
+a:focus-visible {
+    color: #174b73;
+    outline: 2px solid #174b73;
+    outline-offset: 3px;
+}
+
 /* This ID styles the single introduction header. */
 #site-header {
     margin-bottom: 8px;
@@ -60,4 +76,13 @@ li {
     margin-bottom: 8px;
     padding: 24px 0;
     border-bottom: 1px solid #d8d1c7;
+}
+
+.campus-photo {
+    display: block;
+    width: 360px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
 }
