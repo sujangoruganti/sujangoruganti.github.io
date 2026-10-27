@@ -1,0 +1,63 @@
+/* Tag selectors set the page's overall appearance. */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f8f6f2;
+    color: #292929;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    margin: 0 0 16px;
+    color: #a34600;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+h3 {
+    margin: 24px 0 4px;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+p {
+    margin: 0 0 12px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* This ID styles the single introduction header. */
+#site-header {
+    margin-bottom: 8px;
+    padding: 24px 0;
+    border-top: 4px solid #bf5700;
+}
+
+#site-header p {
+    margin: 0;
+    color: #59534d;
+    font-size: 1.1rem;
+}
+
+/* This class is shared by all three content sections. */
+.content-section {
+    margin-bottom: 8px;
+    padding: 24px 0;
+    border-bottom: 1px solid #d8d1c7;
+}
